@@ -7,8 +7,15 @@
 <body>
   <script>
     // Your JavaScript goes here!
-    //Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
-    
+    // Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. 
+    // Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+    function capitalize(text) {
+      let lowString = text.toLowerCase();
+      let firstLetter = text.charAt(0);
+      let firstUp = firstLetter.toUpperCase();
+      let result = (firstUp + lowString.substring(1, ));
+      return result;
+    }
     
   </script>
 </body>
